@@ -1,17 +1,11 @@
-## My Project
+# aws-cdk-state-machine-with-concurrency-controls
 
-TODO: Fill this README out!
+This custom CDK component wraps a step function invocation with a set of resources used to control the maximum concurrency of the state machine 
 
-Be sure to:
+![](./images/architecture.png)
 
-* Change the title in this README
-* Edit your repository description on GitHub
+## Useful commands
 
-## Security
-
-See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
-
-## License
-
-This library is licensed under the MIT-0 License. See the LICENSE file.
-
+* `npm run build`   compile typescript to js
+* `npm run watch`   watch for changes and compile
+* `npm run test`    perform the jest unit tests

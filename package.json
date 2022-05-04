@@ -1,0 +1,33 @@
+{
+  "name": "aws-cdk-state-machine-with-concurrency-control",
+  "version": "1.0.0",
+  "main": "lib/constructs/StateMachineWithConcurrencyControls.js",
+  "types": "lib/constructs/StateMachineWithConcurrencyControls.d.ts",
+  "files": [
+    "lib/**/*"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.10",
+    "@types/node": "10.17.27",
+    "aws-cdk-lib": "2.21.1",
+    "constructs": "^10.0.0",
+    "jest": "^26.4.2",
+    "ts-jest": "^26.2.0",
+    "typescript": "~3.9.7"
+  },
+  "peerDependencies": {
+    "aws-cdk-lib": "2.21.1",
+    "constructs": "^10.0.0"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.78.0",
+    "@aws-sdk/client-sfn": "^3.80.0",
+    "@aws-sdk/client-sqs": "^3.79.0",
+    "@types/aws-lambda": "^8.10.95"
+  }
+}
