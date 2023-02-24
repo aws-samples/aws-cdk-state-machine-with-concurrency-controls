@@ -108,9 +108,7 @@
         "allowSingleLine": true
       }
     ],
-    "space-before-blocks": [
-      "error"
-    ],
+    "space-before-blocks": "error",
     "curly": [
       "error",
       "multi-line",
@@ -126,12 +124,8 @@
     "max-len": [
       "error",
       {
-        "code": 150,
-        "ignoreUrls": true,
-        "ignoreStrings": true,
-        "ignoreTemplateLiterals": true,
-        "ignoreComments": true,
-        "ignoreRegExpLiterals": true
+        "code": 200,
+        "ignoreComments": true
       }
     ],
     "quote-props": [
@@ -216,6 +210,9 @@
           "method"
         ]
       }
+    ],
+    "no-var": [
+      "error"
     ]
   },
   "overrides": [
