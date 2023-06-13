@@ -25,9 +25,9 @@
     "constructs": "^10.0.0"
   },
   "dependencies": {
-    "@aws-sdk/client-dynamodb": "^3.78.0",
-    "@aws-sdk/client-sfn": "^3.80.0",
-    "@aws-sdk/client-sqs": "^3.79.0",
+    "@aws-sdk/client-dynamodb": "^3.351.0",
+    "@aws-sdk/client-sfn": "^3.350.0",
+    "@aws-sdk/client-sqs": "^3.350.0",
     "@types/aws-lambda": "^8.10.95"
   }
 }
